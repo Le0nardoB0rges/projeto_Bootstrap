@@ -1,0 +1,46 @@
+/* redefinindo o padrão de cores do nav do bootstrap */
+.active{
+  background-color: #007bff;
+}
+
+.nav-link, .dropdown-item{
+  color: white !important;
+}
+
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  background-color: #7952b3;
+  color: white !important;
+}
+
+.bg-imagem{
+  height: 48vw; /* para manter a responsividade utilizamos o viewport */
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg);
+  background-repeat: no-repeat;
+  /* cover define que a imagem de fundo será ajustada para cobrir a área do container */
+  background-size: cover;
+}
+
+.bg-imagem p{
+  text-shadow: 4px 4px 8px black;
+  font-size: 4vw;
+}
+
+.mt-60{
+  margin-top: 60px;
+}
+
+/* Estilos Agenda */
+
+#agenda th{
+  font-size: 1.5vw;
+}
+
+#agenda td{
+  height: 100px;
+  /* 100% / 7 colunas */
+  width: 14.29%;
+}
+
+#agenda td.bg-info{
+  color: white;
+}
